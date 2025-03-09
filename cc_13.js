@@ -93,4 +93,4 @@ highlightBtn.addEventListener("click", highlightAllCards); // Listen highlight b
 // Example Employees
 addEmployeeCard("Ramy Abdelbaky", "President"); // Add example employee
 addEmployeeCard("Floyd Mayweather", "Finance Intern"); 
-});
+}); ;
