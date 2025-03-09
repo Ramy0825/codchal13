@@ -48,7 +48,7 @@ employeeContainer.addEventListener("click", function (event) {
     } else if (event.target.classList.contains("employee-card")) { // Check card click
         console.log("Employee card clicked!"); // Log card click
     }
-});
+}); ;
 
 // Task 5 - Inline Editing of Support Tickets
 function editEmployeeCard(card, heading, paragraph) {
