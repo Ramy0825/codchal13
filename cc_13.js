@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
     let addEmployeeBtn = document.getElementById("addEmployeeBtn"); // getan  add button
     let highlightBtn = document.getElementById("highlightBtn"); // get a highlight button
 
+    // Task 2 - Adding Employee Cards Dynamically
 function addEmployeeCard(name, position) {
     let card = document.createElement("div"); // make card element
     card.classList.add("employee-card"); 
