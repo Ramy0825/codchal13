@@ -38,8 +38,7 @@ function highlightAllCards() {
     cardsArray.forEach(function (card) {
         card.classList.add("hightlight"); // Add highlight class (typo)
     });
-}
-
+};
 // Task 4 - Implementing Ticket Resolution with Event Bubbling
 employeeContainer.addEventListener("click", function (event) {
     if (event.target.classList.contains("remove-btn")) { // Check remove click
