@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Management Dashboard</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header, footer {
+            background-color: orange;
+            color: white;
+            padding: 10px;
+        }
+        #employeeContainer {
+            margin: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .employee-card {
+            background-color: pink;
+            padding: 10px;
+            margin: 10px;
+            width: 250px;
+            border-radius: 5px;
+            text-align: left;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+        .remove-btn, .edit-btn {
+            background-color: red;
+            color: white;
+            border: none;
+            padding: 5px;
+            cursor: pointer;
+            width: 100px;
+        }
+        .edit-btn {
+            background-color: blue;
+        }
+        .highlight {
+            border: 2px solid green;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Employee Management System</h1>
+    </header>
+
+    <main>
+        <button id="addEmployeeBtn">Add Employee</button>
+        <br>
+        <br>
+        <br>
+        <button id="highlightBtn">Highlight All</button>
+        <div id="employeeContainer"></div>
+    </main>
+
+    <footer>
+        
+    </footer>
+
+    <script src="cc_13.js"></script>
+</body>
+</html>
